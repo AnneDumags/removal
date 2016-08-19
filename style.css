@@ -1,7 +1,7 @@
 body {
-    /*background-image: url('img/bg.jpg');
-    background-attachment: fixed;*/
-    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('img/lanzarote.jpg');
+    background-attachment: fixed;
+   font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     margin: 0px;
     padding: 0px; 
@@ -15,23 +15,24 @@ body {
 }
 
 .logo {
-    height: 65px;
+    /* height: 65px; */
     width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:35px;
-    text-transform: uppercase;
+    font-family: Viper Nora;
+    font-size:80px;
     font-weight: bold;
     color: white;
-    background-color: peachpuff;
+    /* background-color: peachpuff; */
     margin-top: 2%;
     border-radius: 10px;
 }
 
 .nav {
     height: 40px;
-    background-color: palegoldenrod;
+    background-color: cornflowerblue;
+	font-size: 23px;
     border-radius: 10px;
     padding-top: 1px;
+	padding-bottom: 1px;
 }
 
 .nav ul {
@@ -47,12 +48,39 @@ body {
 .nav ul li a {
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    
+}
+.nav a:link, .nav a:visited{
+    color:white;
+    display:inline-block;
+    /* padding: 10px 25px; */
+    height: 20px;
+}
+
+.nav a:hover, .nav a:active,
+.nav .active a:link, . nav.active a.visited{
+    background-color: white;
+    text-shadow:none;
+}   
+ 
+a {
+    text-decoration: none;
+	color: white;
+}
+
+
+a:link, a:visited {
+    color: white;
+}
+
+a:hover, a:active {
+    background-color: #ff8c00;
+    color: #ffffff;
 }
 
 .content {
     width: 100%;
-    height: 350px;
+    height: auto;
     background-color: lightcoral;
     color: black;
     text-align: center;
@@ -61,11 +89,45 @@ body {
     border-radius: 10px;
 }
 
+.contentImg {
+	width: auto;
+	height: 100%;
+	float: left;
+	margin: 5px 0 5px 5px;
+}
+
+.img {
+	float: left;
+	
+}
+
+.contentRight {
+	width: 67%;
+	height: 412px;
+	float: left;
+	padding-top: 2%;
+}
+
+.punchline {
+    font-family: Vagabond;
+    font-size: 65px;
+    font-weight: bold;
+    color: blue;
+    padding-left: 20px;
+    padding-top: -5px;
+	text-align: center;
+}
+
+.p {
+	text-align: center;
+}
+
 .footer {
     width: 100%;
-    height: 20px;
+    height: 30px;
     text-align: center;
     color: white;
+	padding-top: 2px;
     background-color: gray;
     float:left;
     border-radius: 10px;
